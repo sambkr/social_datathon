@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "social_datathon"
+version = "0.1.0"
+description = ""
+authors = ["KM Yim <32544571+kmyim@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "3.9"
+numpy = "^1.24.2"
+scipy = "^1.10.1"
+scikit-learn = "^1.2.1"
+pandas = "^1.5.3"
+matplotlib = "^3.7.0"
+networkx = "^3.0"
+gensim = "^4.3.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
